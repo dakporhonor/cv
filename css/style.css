@@ -80,9 +80,17 @@ hr {
   width: 100%;
   margin: 10px auto;
 }
- .navbar-item .navbar-link:hover {
-  color: yellowgreen;
+
+@media screen and (max-width: 768px) {
+  #main-header {
+    font-size: 2rem;
+  }
+
+  .first-para {
+    font-size: 0.7rem;
+  }
 }
+
 .container-fluid{
   margin: 0;
   padding: 0;
@@ -139,7 +147,7 @@ hr {
 
 .about-para {
   width: 75%;
-  text-align: justify;
+  text-align: left;
   padding-left: 30px;
   margin-bottom: 40px;
 
